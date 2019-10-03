@@ -3,14 +3,12 @@
 ### Schema
 Object that describes an object
 EX:
+
 `const schema = {
     fields: {
         id: {type: 'string', required: true},
         name: {type:'string', required: true},
-        age: {type: number},
-
-    }
-}`
+        age: {type: number},}}`
 
 ### !!
 Can be used to convert data to a boolean and then return boolean
