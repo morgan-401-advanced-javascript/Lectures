@@ -4,13 +4,13 @@
 Object that describes an object
 EX:
 
-`const schema = {    <br>
-    fields: {   <br>
-        id: {type: 'string', required: true},<br>   
-        name: {type:'string', required: true},  <br>
-        age: {type: number},   <br>
-    }    <br>
- }`<br>
+`const schema = {    <br/>
+    fields: {   <br/>
+        id: {type: 'string', required: true},<br/>   
+        name: {type:'string', required: true},  <br/>
+        age: {type: number},   <br/>
+    }    <br/>
+ }<br/>`
 
 ### !!
 Can be used to convert data to a boolean and then return boolean
